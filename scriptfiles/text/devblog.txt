@@ -1,0 +1,1 @@
+devblog=\tRegistracia\t100%\n\tAvtorizacia\t100%\n\tATM\t70%\n

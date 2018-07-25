@@ -1,0 +1,13 @@
+diff a/mine.inc b/mine.inc	(rejected hunks)
+@@ -6,9 +6,10 @@
+ */
+ 
+ 
+-
++// stuff
+ #include <streamer>
+ #include <YSI\y_hooks>
+ 
+ #include "MINE\mineingutils.pwn"
+ 
++
