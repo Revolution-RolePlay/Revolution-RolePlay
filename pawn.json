@@ -1,0 +1,35 @@
+{
+	"user": "Revolution-RolePlay",
+	"repo": "Revolution-RolePlay",
+	"entry": "gamemodes\\RRPG.pwn",
+	"output": "gamemodes\\RRPG.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"pawn-lang/YSI-Includes",
+		"zeex/samp-plugin-crashdetect:v4.19",
+		"maddinat0r/sscanf:v2.8.2",
+		"samp-incognito/samp-streamer-plugin:v2.9.3",
+		"Awsomedude/easyDialog",
+		"DAKYSKYE/New-SA-MP-callbacks",
+		"Open-GTO/sa-mp-fixes",
+		"BigETI/pawn-memory:2.0"	],
+	"local": true,
+	"builds": [
+		{
+			"name": "main",
+			"includes": [
+				"legacy"
+			]
+		}
+	],
+	"runtime": {
+		"version": "0.3.DL-R1",
+		"mode": "server",
+		"rcon_password": "password",
+		"port": 7777,
+		"maxplayers": 1000,
+		"extra": {
+			"useartwork": "1"
+		}
+	}
+}
