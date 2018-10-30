@@ -1,6 +1,6 @@
 #include <a_samp>
 
-//
+///
 native gpci (playerid, serial [], len); 
 //CLIENT CHECKER
 native SendClientCheck(playerid, type, arg, offset, size);
